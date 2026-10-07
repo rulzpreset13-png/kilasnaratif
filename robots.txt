@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rulzpreset13-png.github.io/kilasnaratif/sitemap.xml
