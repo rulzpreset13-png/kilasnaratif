@@ -9,38 +9,22 @@
     <style>
         * { box-sizing: border-box; margin: 0; padding: 0; }
         body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif; background: #f1f5f9; color: #1e293b; padding-bottom: 40px; }
-        
-        /* HEADER */
         header { background: #0f172a; color: #fff; padding: 18px 20px; display: flex; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
-        header .logo { font-size: 22px; font-weight: 800; letter-spacing: 0.5px; }
-        header .logo span { color: #f43f5e; }
-        header .brand-right { font-size: 18px; font-weight: 700; color: #fff; }
+        header .brand-right { font-size: 18px; font-weight: 700; }
         header .brand-right span { color: #f43f5e; }
-        
-        /* CONTAINER */
         .container { max-width: 720px; margin: 20px auto; padding: 0 15px; }
-        
-        /* KARTU BERITA */
         .berita { background: #fff; border-radius: 14px; padding: 20px; margin-bottom: 16px; box-shadow: 0 2px 12px rgba(0,0,0,0.06); border-left: 4px solid #f43f5e; transition: transform 0.2s, box-shadow 0.2s; }
         .berita:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,0.1); }
-        
-        /* BADGE KATEGORI */
         .badge { display: inline-block; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; letter-spacing: 0.5px; color: #fff; margin-bottom: 12px; text-transform: uppercase; }
         .badge.trending { background: #f43f5e; }
         .badge.teknologi { background: #6366f1; }
         .badge.olahraga { background: #1e3a8a; }
         .badge.viral { background: #ea580c; }
         .badge.hiburan { background: #9333ea; }
-        
-        /* JUDUL BERITA */
         .berita h2 { font-size: 20px; line-height: 1.35; margin-bottom: 10px; }
         .berita h2 a { color: #0f172a; text-decoration: none; }
         .berita h2 a:hover { color: #f43f5e; }
-        
-        /* DESKRIPSI */
         .berita p { color: #64748b; font-size: 14px; line-height: 1.6; }
-        
-        /* FOOTER */
         footer { text-align: center; margin-top: 40px; padding: 20px; color: #94a3b8; font-size: 13px; }
     </style>
 </head>
@@ -50,6 +34,12 @@
     </header>
 
     <div class="container">
+        <div class="berita">
+            <span class="badge hiburan">Hiburan</span>
+            <h2><a href="berita6.html">Omara Esteghlal Digeruduk Netizen Usai Cuitan saat Laga Indonesia, Minta Maaf</a></h2>
+            <p>Pacar Prilly Latuconsina ini dituding menyindir fisik Presiden. Klik judul untuk membaca klarifikasi lengkapnya.</p>
+        </div>
+
         <div class="berita">
             <span class="badge trending">Trending</span>
             <h2><a href="berita4.html">Indosat Luncurkan Zankore, Bangun Infrastruktur AI Terbesar di Asia Tenggara</a></h2>
